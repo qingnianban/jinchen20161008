@@ -17,6 +17,7 @@ public class Controller extends KeyAdapter implements SnakeListener {
 	private GamePanel gamePanel;
 
 	public Controller(Snake snake, Food food, Ground ground, GamePanel gamePanel) {
+		System.out.println("hellowords");
 		this.snake = snake;
 		this.food = food;
 		this.ground = ground;
